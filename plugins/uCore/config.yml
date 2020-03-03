@@ -1,0 +1,52 @@
+server name: practice
+groups:
+  default:
+    format: '{PREFIX} &a{PLAYER_NAME}&7: &f{MESSAGE}'
+  moderator:
+    format: '{PREFIX} &r{PLAYER_NAME}&7: &c{MESSAGE}'
+  Player:
+    format: '&a{PLAYER_NAME}&7: &f{MESSAGE}'
+  HighRoller:
+    format: '{PREFIX}{PLAYER_NAME}&7: &f{MESSAGE}'
+  Zilex:
+    format: '{PREFIX}{PLAYER_NAME}&7: &f{MESSAGE}'
+  Zilex+:
+    format: '{PREFIX}{PLAYER_NAME}&7: &f{MESSAGE}'
+  Bronze:
+    format: '{PREFIX}{PLAYER_NAME}&7: &f{MESSAGE}'
+  Silver:
+    format: '{PREFIX}{PLAYER_NAME}&7: &f{MESSAGE}'
+  Gold:
+    format: '{PREFIX}&6{PLAYER_NAME}&7: &f{MESSAGE}'
+  Platinum:
+    format: '{PREFIX}&f&o{PLAYER_NAME}&7: &f{MESSAGE}'
+  Zolux:
+    format: '{PREFIX}&9&l{PLAYER_NAME}&7: &f{MESSAGE}'
+  Youtube:
+    format: '{PREFIX}&c{PLAYER_NAME}&7: &f{MESSAGE}'
+  Famous:
+    format: '{PREFIX}&d{PLAYER_NAME}&7: &f{MESSAGE}'
+  Partner:
+    format: '{PREFIX}&d{PLAYER_NAME}&7: &f{MESSAGE}'
+  Trialmod:
+    format: '{PREFIX}&e{PLAYER_NAME}&7: &f{MESSAGE}'
+  Mod:
+    format: '{PREFIX}&3{PLAYER_NAME}&7: &f{MESSAGE}'
+  Modplus:
+    format: '{PREFIX}&9{PLAYER_NAME}&7: &f{MESSAGE}'
+  SeniorMod:
+    format: '{PREFIX}&5{PLAYER_NAME}&7: &f{MESSAGE}'
+  Admin:
+    format: '{PREFIX}&c{PLAYER_NAME}&7: &f{MESSAGE}'
+  SeniorAdmin:
+    format: '{PREFIX}&c{PLAYER_NAME}&7: &f{MESSAGE}'
+  PlatAdmin:
+    format: '{PREFIX}&c{PLAYER_NAME}&7: &f{MESSAGE}'
+  Manager:
+    format: '{PREFIX}&c{PLAYER_NAME}&7: &f{MESSAGE}'
+  Developer:
+    format: '{PREFIX}&3{PLAYER_NAME}&7: &f{MESSAGE}'
+  MediaOwner:
+    format: '{PREFIX}&4{PLAYER_NAME}&7: &c{MESSAGE}'
+  Owner:
+    format: '{PREFIX}&4{PLAYER_NAME}&7: &f{MESSAGE}'

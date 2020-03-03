@@ -1,0 +1,648 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+  Player:
+    options:
+      default: true
+      prefix: '&a'
+    permissions:
+    - modifyworld.*
+  Youtube:
+    options:
+      prefix: '&7[&cYou&fTube&7] &f'
+    permissions:
+    - pratice.commands.event
+    - pratice.commands.host
+    - practice.commands.host
+    inheritance:
+    - Player
+  Famous:
+    options:
+      prefix: '&7[&dFamous&7] &d'
+    permissions:
+    - staff.fly
+    - practice.fly
+    - practice.commands.host
+    inheritance:
+    - Youtubeur
+  Mod:
+    options:
+      prefix: '&7[&3Mod&7] &3'
+    inheritance: []
+    permissions:
+    - minecraft.command.tp
+    - ptp
+    - admin
+    - practice.commands.seeall
+    - mod.use
+    - practice.commands.moderator
+    - practice.commands.pteleport
+    - litebans.*
+    - litebans.group.helper
+    - litebans.group.moderator
+    - litebans.notify.broadcast
+    - litebans.notify.banned_join
+    - autoclick.alert
+    - autoclick.verif
+    - spookyac.notify
+  Admin:
+    options:
+      prefix: '&7[&cAdmin&7] &c'
+    inheritance:
+    - trialmod
+    permissions:
+    - mod.use
+    - mod
+    - minecraft.command.tp
+    - ptp
+    - tp
+    - admin
+    - practice.commands.seeall
+    - practice.commands.moderator
+    - practice.commands.pteleport
+    - litebans.*
+    - litebans.notify.banned_join
+    - litebans.notify'
+    - litebans.group.helper
+    - litebans.group.moderator
+    - litebans
+    - autoclick.verif
+    - autoclick.alert
+  Owner:
+    options:
+      prefix: '&7[&4&oOwner&7] &4'
+    permissions:
+    - minecraft.command.tp
+    - ptp
+    - tp
+    - upractice.*
+    - antispam.bypass
+    - litebans.group.unlimited
+    - fiona.*
+    - litebans.*
+    - litebans.unmute
+    - litebans.unmute.own
+    - 'litebans.unmute.own:'
+    - litebans.unban
+    - litebans.unban.own
+    - fiona.bypass
+    - litebans
+    - litebans:unban
+    - litebans:unmute
+    - litebans:tempban
+    - litebans.tempban
+    - admin
+    - fiona.admin
+    - staff
+    - fiona.staff
+    - anticheat
+    - fiona.anticheat
+    - fiona.fiona
+    - fiona
+    - 'litebans:'
+    - litebans.
+    - unban
+    - litebans.kick
+    - litebans.mute
+    - litebans.ban
+    - ban
+    - litebans.group.moderator
+    - litebans.notify.banned_join
+    - litebans.notify.banned_join'
+    - litebans.notify
+    - none
+    - litebans.group.helper
+    - fiona.view
+    - autoclick.verif
+    - autoclick.alert
+    - /verif
+    - spookyac.notify
+    - spookyac.use
+    - ezq.rank1
+    - ezq.rank1
+    - litebans.cooldown.bypass
+    - litebans.cooldown.bypass.ban
+    - litebans.tempmute
+    - litebans.history
+    - litebans.banlist
+    - litebans.checkban
+    - litebans.checkmute
+    - litebans.lastuuid
+    - litebans.geoip
+    - litebans.dupeip
+    - litebans.ipreport
+    - litebans.togglechat.bypass
+    - litebans.clearchat.bypass
+    - litebans.mutechat.bypass
+    - litebans.lockdown.bypass
+    - litebans.json.hover_text
+    - litebans.tabcomplete
+    - litebans.notify.dupeip_join
+    - practice.commands.seeall
+    - practice.commands.moderator
+    - practice.commands.pteleport
+    - practice.fly
+    - mod.use
+  Gold:
+    permissions:
+    - practice.commands.host
+    - practice.fly
+    options:
+      prefix: '&0(&eGold&0)&7 '
+schema-version: 1
+users:
+  585ad47d-765f-4fe7-a5e8-69a3573fe0e3:
+    group:
+    - default
+    options:
+      name: Keiwyr
+  03f777b5-a13d-47c8-8195-70265832e73b:
+    group:
+    - Owner
+    options:
+      name: FrxdxxYT
+  51e027d8-bec4-4dbe-9e65-0ec1cbed543b:
+    group:
+    - default
+    options:
+      name: TheCookieGaming
+  6um:
+    group:
+    - default
+  2d25defd-c1d7-4a53-8f7e-490bca74878d:
+    group:
+    - Owner
+    options:
+      name: HeyGrandma
+  d83afab8-06eb-446d-a37c-8c5f2e7b7ef2:
+    group:
+    - Admin
+    options:
+      name: KingOfNetflix
+  6f883af0-a7c4-4853-9623-7d83d4eae4ed:
+    options:
+      name: JPMan28
+  f19867fd-ca76-4ce5-a70a-7e01aab7132b:
+    group:
+    - default
+    options:
+      name: lczi
+  331ee8f8-2d2c-4bb8-9e07-c0984f7dcdac:
+    group:
+    - default
+    options:
+      name: minimarcel
+  9686f330-7d7a-47e5-a484-30944f738bcb:
+    group:
+    - Youtube
+    options:
+      name: yungfudas
+  88a5434a-c2af-47fa-8db2-605b2b6e14bf:
+    group:
+    - default
+    options:
+      name: Spreken
+  2f616a92-0df6-4f08-9907-bbd11b551120:
+    group:
+    - default
+    options:
+      name: ohVxzeyy
+  54800f6f-3daf-4ea7-bd9b-f4f11e2112c2:
+    group:
+    - Youtube
+    options:
+      name: MrDominator
+  desctructived:
+    group:
+    - Youtube
+  destrctived:
+    group:
+    - default
+  2766bf5b-1336-41e1-afea-e9741d29a986:
+    group:
+    - default
+    options:
+      name: Destructived
+  8b4d398b-dfdb-4011-b9d9-6b291f28fb5c:
+    group:
+    - Youtube
+    options:
+      name: Foldinq
+  7dbb6152-bbba-42fb-b646-f88102d66586:
+    group:
+    - Youtube
+    options:
+      name: IFrezze
+  9bd3b187-12e9-4904-be31-bebfc6395b1f:
+    group:
+    - Famous
+    options:
+      name: Bl4styMinemen
+  81502177-2d27-43b7-b4b1-738e3936a644:
+    group:
+    - Youtube
+    options:
+      name: GodStrafeV7
+  zenzpvp:
+    group: []
+  a449405f-9a73-419f-807a-f6d210e5411f:
+    group:
+    - Youtube
+    options:
+      name: aphspeix
+  1dd9ca71-f774-4f1d-bb31-15b12070132a:
+    group:
+    - Youtube
+    options:
+      name: Samayante
+  cinorehensions:
+    group:
+    - Youtube
+  0e8f494a-bafc-472e-922e-3584a600c498:
+    group:
+    - Famous
+    options:
+      name: Comprehensions
+  ea8c0acf-85a6-423a-ab34-31253eb5cda7:
+    group:
+    - Famous
+    options:
+      name: Lacings
+  25ecfdaf-9ed5-41cd-828e-0dce2c90cd73:
+    group:
+    - Youtube
+    options:
+      name: GamersMc86
+  c5941667-f29e-4988-82f2-cbd2a0894240:
+    group:
+    - Youtube
+    options:
+      name: 4xR22
+  1159d114-908a-4f27-8a32-875e41835e4c:
+    group:
+    - default
+    options:
+      name: Driveout
+    permissions: []
+  producement:
+    permissions:
+    - '*'
+  stairwell:
+    permissions:
+    - '*'
+  34b:
+    permissions:
+    - '*'
+  c669636a-c741-46de-8404-1a7e3ab072ef:
+    group:
+    - Owner
+    options:
+      name: BabyStress
+  1b6422db-75a8-4fb5-a47a-47c16abf0049:
+    group: []
+    options:
+      name: CL0CKING
+  9d98aee7-275f-4bd8-b0ad-0b2acecf40d6:
+    group:
+    - Youtube
+    options:
+      name: HARMLES5
+    permissions: []
+  netlimtiers:
+    group:
+    - Owner
+  0e39483a-2b03-4c88-9cb1-ecbdab9248ab:
+    permissions:
+    - '*'
+    group:
+    - Owner
+    options:
+      name: ZIBLACKINGGG
+  a1cf5830-cc78-4169-bab6-7e7135ef04d7:
+    group:
+    - Owner
+    options:
+      name: alb0219
+  baef4d05-bd83-4faa-8547-d7a48bc0d68d:
+    group:
+    - Famous
+    options:
+      name: InstagramLikes
+  a4434163-f43e-4b17-98f2-3b08ee4f5513:
+    group:
+    - Youtube
+    options:
+      name: AlfieYT
+  32df6e5f-517e-4720-966f-cbac9336b6a0:
+    group:
+    - Youtube
+    options:
+      name: Stoack
+  alfiety:
+    group: []
+  7b830333-fb3e-44d2-9fd0-ffbaeb71ee0e:
+    group:
+    - Youtube
+    options:
+      name: Glando
+  04bb9770-9ff9-4658-9778-978aa2398455:
+    group:
+    - Youtube
+  d268f133-ba02-4773-9ace-a47e608d4c8f:
+    group:
+    - Youtube
+    options:
+      name: Inboxx
+  27b600de-9633-4586-898e-c4e2680a5dbc:
+    group:
+    - Famous
+    options:
+      name: BetaZer
+  8d83d738-56f3-486a-8e60-31ea67ce24da:
+    group: []
+    options:
+      name: ErrorL
+  5979d83f-775a-47db-9a57-f7ae4c437ed0:
+    group:
+    - Youtube
+    options:
+      name: BurnetPvP
+  51ea05ee-2b56-4752-b85e-3cd7494b0ed2:
+    group: []
+    options:
+      name: yungwinde
+  youloggde:
+    group:
+    - Mod
+  1ace5fe0-390a-49e5-b38b-9469d3926535:
+    group:
+    - Mod
+    options:
+      name: YouLogged
+  30faa2d9-e61b-4bc3-b909-3ae88ee1ddf8:
+    group: []
+    options:
+      name: SimplyHate
+  0c13d67c-af57-45ce-82b3-6272a6c95b79:
+    group:
+    - Famous
+    options:
+      name: avaah
+    permissions:
+    - spookyac.bypass
+  bd65d9af-5e03-4111-a8ce-4445df07e4a3:
+    group:
+    - Famous
+    options:
+      name: AlleComboZ
+  1491222d-d137-4c39-b98e-d78f0b501d1d:
+    group:
+    - Famous
+    options:
+      name: neoneyyyy
+  e6b0579c-c529-45d8-82ae-111054e1b866:
+    group:
+    - Owner
+    options:
+      prefix: '&7[&4&OOwner&7] &4'
+      name: Splars
+  owner:
+    permissions:
+    - spookyac.use
+    - spookyac.notify
+    - mod.use
+    - spookyac.alert
+    - spookyac.alerts
+  44c011a7-96ac-4f53-ba22-601eaa4246f4:
+    group:
+    - Owner
+    options:
+      name: NicePots
+    permissions:
+    - '*'
+  f974fb10-f29a-4131-9d87-f7840cea2756:
+    group:
+    - Famous
+    options:
+      name: Drqoom
+  8aa51222-1f4f-4ca2-8a8f-a0004ca01365:
+    options:
+      name: POKEMONTuCheatL
+    group:
+    - Mod
+  61c29d27-939d-4876-97f4-03f5dad525fc:
+    group: []
+    options:
+      name: PetiXD
+  fastpots:
+    group:
+    - Owner
+  fastpot:
+    group:
+    - '*'
+  obbsessedwithyt:
+    group: []
+  dc1cda9c-9c42-493f-bebe-272c4c66679b:
+    group: []
+    options:
+      name: ObsessedWithYT
+  131daf47-fd96-4a48-9862-ac00e53a97e4:
+    group: []
+    options:
+      name: MemeZoid
+  trialmod:
+    permissions:
+    - litebans.tempban
+  c6377b6f-f14c-46d8-be3b-1154d30bb0ef:
+    group: []
+    options:
+      name: Mekt
+  15e05cc4-a985-47ef-92d1-a5a09cf4e256:
+    group: []
+    options:
+      name: Sentimentos
+  83eecbf5-d5a0-467a-b645-a821b678deef:
+    group:
+    - Youtube
+    options:
+      name: Zarcal
+  c346e231-a5dc-4dbb-b8b1-8d5f3b37690a:
+    group: []
+    options:
+      name: Cekl
+  ec072f8a-6ab8-465e-b836-f1ca02db1859:
+    group: []
+    options:
+      name: Secreting
+  5f407ced-4e5a-41af-b71d-d9b6ff7fdbb7:
+    group:
+    - Youtube
+    options:
+      name: HAXWSH
+  144ab4b7-b13c-46d9-96c8-970f0b56b500:
+    group:
+    - Owner
+    options:
+      name: FastPotss
+  imakemcvids:
+    group:
+    - Admin
+  f1bfde15-db6e-4871-871a-bd1e12c1c7ba:
+    group:
+    - default
+    options:
+      name: IMakeMcVid
+    permissions:
+    - spookyac.bypass
+  2f039318-578a-4b2e-8396-802d2003295e:
+    group:
+    - Famous
+    options:
+      name: Fireosss
+  1da813ff-75e5-440e-ab50-f3a030b604cd:
+    group:
+    - Admin
+    options:
+      name: Utilizable
+    permissions:
+    - '*'
+  e35eb256-e984-496c-af16-4f4b538180ec:
+    group: []
+    options:
+      name: Tarah_
+  77a0ae12-e4e3-4ad5-b903-82d9813ed4a7:
+    options:
+      name: t1s
+    group:
+    - default
+  174060df-7a15-459f-a9c5-0849b05d3e39:
+    group:
+    - Famous
+    options:
+      name: Suceur
+  f4ctucheatl:
+    group: []
+  bayping:
+    group: []
+  wesh_lukze:
+    group:
+    - Youtube
+  5dcfbdc4-ebdf-4cab-a1ee-7a58e0ddad56:
+    group:
+    - Youtube
+    options:
+      name: Verzajd
+  f51bb7ea-7336-493c-8210-a340d20b2390:
+    group: []
+    options:
+      name: Carpyy
+  0f47b162-c87b-4ad4-b73a-cb581fb86f59:
+    group: []
+    options:
+      name: PlayL
+  abb371ff-7224-4740-9a73-d361dd499b81:
+    group:
+    - Youtube
+    options:
+      name: cLeid
+  a8edc736-2d2d-4ac4-81b1-0190c6407fb0:
+    group: []
+    options:
+      name: merket
+  crazie:
+    group:
+    - Famous
+  b94d763e-2934-4228-93c6-b247906e2673:
+    group:
+    - Famous
+    permissions:
+    - spookyac.bypass
+    options:
+      name: Crqzie
+  f33eea78-f763-480c-97f0-34bde0fe907c:
+    group:
+    - Famous
+    options:
+      name: FIAWLESS
+  bf80130d-a5fd-4351-9e54-916e7b582bb8:
+    group: []
+    options:
+      name: SLEC
+  1b5efcfe-c11a-48fc-bc35-c12b1fb60ea7:
+    group:
+    - Youtube
+    options:
+      name: Sulwi
+  600910f4-8e16-4d58-9eb3-11b48ade70f4:
+    group:
+    - Famous
+    options:
+      name: Signaler
+  d8f105c7-3e46-437b-bf13-3103e50751ec:
+    group:
+    - Famous
+    options:
+      name: sadhourss
+  wavy420:
+    group:
+    - Youtube
+  booney:
+    group:
+    - Youtube
+  potcomboz:
+    group:
+    - Youtube
+  etimology:
+    group:
+    - Youtube
+  2cc9cd7b-feaa-4140-9997-bf05cd01b387:
+    group: []
+    options:
+      name: ZAKVES
+  2dd8e7f2-4703-4529-9626-1bb51ffb2bc5:
+    group:
+    - Famous
+    options:
+      name: Stanislav2902
+  e7b5edba-b9e4-4093-bb5a-7b221a6c067c:
+    options:
+      name: Nomalyx
+    permissions:
+    - Admin
+    - group
+    group:
+    - Owner
+    - Player
+  aab2e467-c25a-4857-8467-bcf23e51f59a:
+    options:
+      name: BullenMoore
+  a06c65c0-c408-4d5f-b942-ce76deecf350:
+    group:
+    - Admin
+    - Famous
+    - Youtuber
+    options:
+      name: Flying_Koudy
+    permissions:
+    - Owner
+  731c3bf2-e972-4565-a182-ddfcb04910e6:
+    group:
+    - Admin
+    - Mod
+    options:
+      name: Flying_FrostiZ
+  75ced494-b562-4f67-b573-f3a6e2187fd7:
+    group:
+    - Admin
+    options:
+      name: KilluaL
+  group:
+    permissions: []
+  d8d305a7-fc5c-4317-afcd-3e381ed3672c:
+    group:
+    - Gold
+    options:
+      name: NittNeuK

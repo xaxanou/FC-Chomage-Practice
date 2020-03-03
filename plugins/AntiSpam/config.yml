@@ -1,0 +1,21 @@
+###########################################
+#+---------------------------------------+#
+#|        InvictusPVP© | AntiSpam        |#
+#|          Plugin by STARL3UK           |#
+#|        http://invictuspvp.fr          |#
+#+---------------------------------------+#
+###########################################
+# Permission: for bypass(antispam.bypass) for use /asreload(antispam.reload)
+
+# Countdown time in seconds
+time: 1
+
+# Spam message
+message: '&cPlease don''t spam the chat!'
+
+# No permission message
+noperm: '&cYou don''t have access to use this command'
+
+# Reload message
+mreload: '&aThis plugin as been reload!'
+

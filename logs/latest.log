@@ -1,0 +1,55 @@
+[19:17:45] [main/INFO]: Starting minecraft server version 1.8.8
+[19:17:45] [main/INFO]: Loading properties
+[19:17:45] [main/INFO]: Default game type: SURVIVAL
+[19:17:45] [main/INFO]: This server is running CraftBukkit version 1.8.8 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:17:45] [main/INFO]: Debug logging is disabled
+[19:17:45] [main/INFO]: Server Ping Player Sample Count: 12
+[19:17:45] [main/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[19:17:45] [main/INFO]: Using 4 threads for Netty based IO
+[19:17:45] [main/INFO]: Data value allowed items: 
+[19:17:45] [main/INFO]: Generating keypair
+[19:17:45] [main/INFO]: Starting Minecraft server on *:25565
+[19:17:45] [main/INFO]: Set PluginClassLoader as parallel capable
+[19:17:45] [main/INFO]: [uCore] Loading uCore v2.0
+[19:17:45] [main/INFO]: [WorldEdit] Loading WorldEdit v6.1.5;4651611
+[19:17:45] [main/INFO]: [uPractice] Loading uPractice v2.0
+[19:17:45] [main/INFO]: [ChunkLoader] Loading ChunkLoader v1.45
+[19:17:45] [main/INFO]: [AntiSpam] Loading AntiSpam v1.0
+[19:17:45] [main/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:17:45] [main/INFO]: [AutoclickerVerif] Loading AutoclickerVerif v1.0
+[19:17:45] [main/INFO]: [Fiona] Loading Fiona v2.3.2-b1
+[19:17:45] [main/INFO]: [BuycraftX] Loading BuycraftX v12.0.6
+[19:17:45] [main/INFO]: [Discord] Loading Discord v1.1.4
+[19:17:45] [main/INFO]: [Vault] Loading Vault v1.7.2-b107
+[19:17:45] [main/INFO]: [FastPot] Loading FastPot v5.0
+[19:17:45] [main/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[19:17:45] [main/INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0
+[19:17:46] [main/INFO]: [LiteBans] Loading LiteBans v2.3.18
+[19:17:46] [main/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[19:17:46] [main/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[19:17:46] [main/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:17:46] [main/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[19:17:46] [main/INFO]: [Vault] Enabled Version 1.7.2-b107
+[19:17:46] [main/INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0
+[19:17:46] [main/INFO]: [ProtocolLib] Started structure compiler thread.
+[19:17:46] [main/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:17:46] [main/INFO]: Preparing level "world"
+[19:17:46] [main/INFO]: Preparing start region for level 0 (Seed: -4216530450634206070)
+[19:17:47] [main/INFO]: Preparing start region for level 1 (Seed: -769915819460835487)
+[19:17:48] [main/INFO]: Preparing start region for level 2 (Seed: -769915819460835487)
+[19:17:48] [main/INFO]: [uCore] Enabling uCore v2.0
+[19:17:48] [main/INFO]: [uCore] Enabling uCore
+[19:17:48] [main/INFO]: [uCore] Vault found
+[19:17:48] [main/INFO]: [WorldEdit] Enabling WorldEdit v6.1.5;4651611
+[19:17:48] [main/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:17:48] [main/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:17:48] [main/INFO]: [uPractice] Enabling uPractice v2.0
+[19:17:48] [main/INFO]: [uPractice] ----------------------------------------
+[19:17:48] [main/INFO]: [uPractice] uPractice - Database not connected !
+[19:17:48] [main/INFO]: [uPractice] ----------------------------------------
+[19:17:48] [main/INFO]: [uPractice] ----------------------------------------
+[19:17:48] [main/INFO]: [uPractice] uPractice - Practice by UnknownMyName launched and enabled successfully
+[19:17:48] [main/INFO]: [uPractice] ----------------------------------------
+[19:17:48] [main/INFO]: [ChunkLoader] Enabling ChunkLoader v1.45
+[19:17:48] [main/INFO]: [ChunkLoader] Counted 3906.25 Chunks !
+[19:17:48] [main/INFO]: [ChunkLoader] Loading chunks please wait...

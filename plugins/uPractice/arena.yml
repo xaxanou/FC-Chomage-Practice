@@ -1,0 +1,241 @@
+arenas:
+  sumo2:
+    kits:
+    - Sumo
+    firstTeamLocation: world:111.47490696540567:117.0:5939.462668087348:-267.491:-3.6505203
+    secondTeamLocation: world:101.97453424851732:117.0:5939.415534415341:-89.38371:-1.7495488
+    enabled: true
+  sumo1:
+    kits:
+    - Sumo
+    firstTeamLocation: world:80.41758704291709:117.0:5539.652290308086:-1.6279755:-5.5189543
+    secondTeamLocation: world:80.59592024585682:117.0:5547.183928864014:180.71994:0.47645378
+    enabled: true
+  MarioBross:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:6672.131094826807:91.0:5235.159174069169:1.0284729:10.720605
+    secondTeamLocation: world:6671.844624054618:91.0:5351.909021270886:180.3623:6.2915874
+    enabled: false
+  Wooded:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:1600.4778165974694:99.0:1681.6823482506832:182.05254:13.217337
+    secondTeamLocation: world:1600.8198352777354:99.0:1630.89564437934:4.4868164:3.2722294
+    enabled: false
+  TwoTrees:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:3238.3363207210987:108.0:2754.708984218044:182.97833:5.8084993
+    secondTeamLocation: world:3242.8403832491963:108.0:2688.419332308297:2.5546875:2.1847692
+    enabled: false
+  desert:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:10094.487617605822:103.0:7686.177080265412:48.219147:1.902839
+    secondTeamLocation: world:10034.089128886932:103.0:7746.171963437012:226.34862:7.0565863
+    enabled: false
+  Streat:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:4471.6294702970235:95.0:3792.4207112938357:276.1918:10.197022
+    secondTeamLocation: world:4532.310940387488:95.0:3792.403131780151:89.570625:7.1771674
+    enabled: false
+  FootBall:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:8337.669181181845:92.0:6366.687223815369:179.43822:13.860923
+    secondTeamLocation: world:8337.486235087208:92.0:6290.477512640526:359.37686:6.3316364
+    enabled: false
+  mycelium:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:6312.43044416813:167.0:2658.4698212297085:182.40454:9.302923
+    secondTeamLocation: world:6312.578136249512:167.0:2605.327704849777:2.0811157:2.0457568
+    enabled: false
+  Cavernorange:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:4803.5459683459785:170.0:4238.302572498633:98.80466:6.6648183
+    secondTeamLocation: world:4728.410849009897:170.0:4230.403596652837:281.71017:5.5934997
+    enabled: false
+  Snoww:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:4012.461339111859:173.0:1590.5538639080437:216.30211:6.6242085
+    secondTeamLocation: world:4077.603137231378:167.0:1521.463216502635:47.275787:19.871502
+    enabled: false
+  Candy:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:7193.4593878862415:174.0:3198.3911202858308:272.79895:23.134983
+    secondTeamLocation: world:7283.546569409964:174.0:3196.545053905122:95.90035:19.920368
+    enabled: false
+  Castle:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:6951.502235740872:174.0:3864.427328920703:129.45944:0.5773215
+    secondTeamLocation: world:6887.459093957695:174.0:3800.5070541763403:314.29724:0.5772558
+    enabled: false
+  pvping1:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:4283.508106456896:190.0:1377.5648904415189:179.37733:7.474617
+    secondTeamLocation: world:4283.504289106263:190.0:1300.5998781129722:359.63828:4.0956163
+    enabled: true
+  potions:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:3628.677253272086:205.0:473.4699653913557:90.40234:2.4530723
+    secondTeamLocation: world:3512.300586039142:205.0:473.51570240160294:270.80432:0.059609562
+    enabled: false
+  nether101:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:2198.4748468202083:217.0:1648.5647871789351:313.3846:5.1964436
+    secondTeamLocation: world:2243.683702125694:217.0:1721.6642177344204:134.06802:4.586309
+    enabled: true
+  Building:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:3572.2527027382253:177.0:1161.5846329518129:179.17023:-0.6230948
+    secondTeamLocation: world:3578.099083354784:177.0:1056.5583013860653:0.18267822:-0.10703397
+    enabled: true
+  Zelix2020:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:4747.748808276101:232.0:2803.872852924186:359.47934:-0.24778725
+    secondTeamLocation: world:4748.021811571712:232.0:2930.821317660817:179.03638:6.134791
+    enabled: true
+  Zelix1010:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:3831.034556182224:195.0:126.34239061880731:358.07706:-0.8108008
+    secondTeamLocation: world:3828.581583204489:195.0:263.226968608067:181.24799:-0.9515949
+    enabled: true
+  zelix3030:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:3174.557133802053:187.0:566.3779078356554:0.4171753:-0.107013464
+    secondTeamLocation: world:3173.499561527338:187.0:704.5550140049388:180.25616:0.8316073
+    enabled: true
+  pakiman:
+    kits:
+    - NoDebuff
+    - Debuff
+    - Soup
+    - Axe
+    - Gapple
+    - Archer
+    - Combo
+    firstTeamLocation: world:5420.529407239264:186.0:1749.7680584577565:0.41555786:1.5824717
+    secondTeamLocation: world:5420.476173871763:186.0:1864.4796032008949:179.36237:1.7702014
+    enabled: false

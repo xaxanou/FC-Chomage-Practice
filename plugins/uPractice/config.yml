@@ -1,0 +1,31 @@
+# uPractice - Practice.
+# The creators of this Practice is @UnknownMyName_o.
+# To change a value you have to stop your server before.
+
+DATABASE:
+  MONGO:
+    HOST: 127.0.0.1
+    PORT: 27017
+    AUTHENTICATION:
+      ENABLED: false
+      DATABASE: zoluxprac
+      USER: zoluxprac
+      PASSWORD: R4SK92Yd5C6mk4ju
+spawn: world:4921.976092825665:206.0:2609.0744427832215:224.64003:8.950633
+editkit: world:2248.2785239350815:109.0:471.5096763729778:90.4389:5.739233
+real-players:
+  enable-override: true
+  prefix: '&f'
+fake-players:
+  enabled: true
+  prefix: '&f'
+  list: []
+fake-max-players:
+  enabled: true
+  fake-max-online: 250
+fake-server-list:
+  enabled: true
+  fake-players-hint-in-server-list: true
+list-command-override:
+  enable: true
+  command-list: list,players,online,playerlist,who

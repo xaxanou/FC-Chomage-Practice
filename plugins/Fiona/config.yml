@@ -1,0 +1,167 @@
+# ############################################################### #
+#                                                                 #
+#           Welcome to the Fiona Revamped Configuration           #
+#                        Enjoy your stay :)                       #
+#                                                                 #
+# ############################################################### #
+
+alerts:
+  delay:
+    enabled: true
+    millis: 500
+  clickCommand: /teleport %sender% %cheater%
+  checkVioResetBroadcast: true
+bungee: false
+bypass:
+  enabled: true
+  permission: fiona.bypass
+testmode: false
+executableCommands:
+- 'ban %player% Unfair Advantage: %check%'
+- fiona broadcast %prefix%&e%player% &7was removed from the server for cheating.
+checks:
+  KillAura:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 2
+    executableThreshold: 12
+    detections:
+      Delta:
+        enabled: true
+        executable: true
+      Direction:
+        enabled: true
+        executable: false
+      RayTrace:
+        enabled: true
+        executable: true
+      Rotations:
+        enabled: true
+        executable: false
+      Angle:
+        enabled: true
+        executable: false
+  Reach:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 1
+    executableThreshold: 6
+    detections:
+      Type A:
+        enabled: true
+        executable: true
+  Criticals:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 1
+    executableThreshold: 6
+    detections:
+      Type A:
+        enabled: true
+        executable: true
+  Fastbow:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 0
+    executableThreshold: 5
+    detections:
+      Speed:
+        enabled: true
+        executable: true
+  NoFall:
+    enabled: false
+    executable: true
+    cancellable: true
+    cancelThreshold: 1
+    executableThreshold: 4
+    detections:
+      Ground:
+        enabled: true
+        executable: true
+      Fall:
+        enabled: true
+        executable: true
+  InvalidMovement:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 2
+    executableThreshold: 20
+    detections:
+      Limit:
+        enabled: true
+        executable: true
+      Ladder:
+        enabled: true
+        executable: true
+      Horizontal:
+        enabled: true
+        executable: false
+      Vertical:
+        enabled: true
+        executable: true
+      Step:
+        enabled: true
+        executable: false
+  BadPackets:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 2
+    executableThreshold: 10
+    detections:
+      Speed:
+        enabled: true
+        executable: true
+      FakeLag:
+        enabled: true
+        executable: false
+      Invalid Fall Damage:
+        enabled: true
+        executable: false
+      FastMovement:
+        enabled: true
+        executable: true
+  Regen:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 0
+    executableThreshold: 5
+    detections:
+      Interval:
+        enabled: true
+        executable: true
+  Scaffold:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 0
+    executableThreshold: 8
+    detections:
+      FastPlace:
+        enabled: true
+        executable: true
+      Interact:
+        enabled: true
+        executable: true
+  NoSlowdown:
+    enabled: true
+    executable: true
+    cancellable: true
+    cancelThreshold: 1
+    executableThreshold: 10
+    detections:
+      Type A:
+        enabled: true
+        executable: true
+      Type B:
+        enabled: true
+        executable: true
+      Type C:
+        enabled: true
+        executable: true

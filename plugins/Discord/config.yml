@@ -1,0 +1,128 @@
+#Feel free to leave a review!
+#PM me on spigot if you have issues/suggestions!
+
+Denymsg: '&c&lThis command is disabled'
+GUINAME: '&bLINKS'      #name has to be less than 27 characters
+GUISIZE: 18     #Size has multiples of 9 ie: 9, 18, 27, 36, 45, 54!
+
+
+
+
+
+
+#  Do not add color codes to links!
+#===================
+
+#FORUMS
+ForumsEnabled: false
+
+Forums: '&3Forums'
+
+ForumsLink: 'https://www.youtube.com/c/StrikerPlayz' 
+
+ForumsHover: '&eForums Hover Example'
+
+ForumsItem:
+  item: 160
+  meta: 3
+
+ForumsSlot: 1
+
+
+#===================
+#DISCORD
+
+DiscordEnabled: true
+
+Discord: '&eDiscord'
+
+DiscordLink: 'https://discord.gg/TVddsmT' 
+
+DiscordHover: '&ehttps://discord.gg/TVddsmT'
+
+DiscordItem:
+  item: 175
+  meta: 0
+
+DiscordSlot: 3
+
+#===================
+#TEAMSPEAK
+
+TSEnabled: false
+
+TS: '&aTeamSpeak'
+
+TSLink: 'https://www.youtube.com/c/StrikerPlayz' 
+
+TSHover: '&eTeamSpeak Hover Example'
+
+TSItem:
+  item: 145
+  meta: 0
+
+TSSlot: 5
+
+#===================
+#WEBSITE
+
+WebEnabled: true
+
+Web: '&dWebsite'
+
+WebLink: 'https://chomage.mtxserv.com/'
+
+WebHover: '&ehttps://chomage.mtxserv.com/'
+
+WebItem:
+  item: 342
+  meta: 0
+
+WebSlot: 7
+#===================
+#APPLY
+
+ApplyEnabled: false
+
+Apply: '&6Apply For Staff'
+
+ApplyLink: 'https://www.youtube.com/c/StrikerPlayz'
+ 
+ApplyHover: '&eApply Hover Example'
+
+ApplyItem:
+  item: 406
+  meta: 0
+
+ApplySlot: 11
+#=====================
+#STORE
+
+StoreEnabled: true
+
+Store: '&2&lSupport our server'
+
+StoreLink: 'https://chomage.buycraft.net/'
+
+StoreHover: '&ehttps://chomage.buycraft.net/'
+
+StoreItem:
+  item: 306
+  meta: 0
+
+StoreSlot: 13
+#=====================
+#DJ
+
+DJEnabled: false
+
+DJ: '&9Connect with our DJ!'
+DJLink: 'https://www.youtube.com/c/StrikerPlayz'
+DJHover: '&eDJ Hover Example'
+
+DJItem:
+  item: 160
+  meta: 6
+  
+DJSlot: 15
+#====================

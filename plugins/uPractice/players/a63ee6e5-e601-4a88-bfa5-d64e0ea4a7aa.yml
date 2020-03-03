@@ -1,0 +1,469 @@
+playerkits:
+  NoDebuff:
+    '1':
+      displayName: '§fKit: NoDebuff #1'
+      mainContents:
+      - &id001
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 3
+            FIRE_ASPECT: 2
+      - &id002
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 16
+      - &id003
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - &id004
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8259
+      - &id005
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id006
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id007
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id008
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id009
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      - &id010
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id011
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id012
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id013
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id014
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id015
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id016
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id017
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id018
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - &id019
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id020
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id021
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id022
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id023
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id024
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id025
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id026
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id027
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - &id028
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id029
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id030
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id031
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id032
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id033
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id034
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id035
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - &id036
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      armorContents:
+      - &id037
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ''
+          - §cThis is automatically equipped
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+            PROTECTION_FALL: 1
+      - &id038
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ''
+          - §cThis is automatically equipped
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      - &id039
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ''
+          - §cThis is automatically equipped
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      - &id040
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - ''
+          - §cThis is automatically equipped
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+    '2':
+      displayName: '§fKit: NoDebuff #2'
+      mainContents:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - *id006
+      - *id007
+      - *id008
+      - *id009
+      - *id010
+      - *id011
+      - *id012
+      - *id013
+      - *id014
+      - *id015
+      - *id016
+      - *id017
+      - *id018
+      - *id019
+      - *id020
+      - *id021
+      - *id022
+      - *id023
+      - *id024
+      - *id025
+      - *id026
+      - *id027
+      - *id028
+      - *id029
+      - *id030
+      - *id031
+      - *id032
+      - *id033
+      - *id034
+      - *id035
+      - *id036
+      armorContents:
+      - *id037
+      - *id038
+      - *id039
+      - *id040
+    '3':
+      displayName: '§fKit: NoDebuff #3'
+      mainContents:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - *id006
+      - *id007
+      - *id008
+      - *id009
+      - *id010
+      - *id011
+      - *id012
+      - *id013
+      - *id014
+      - *id015
+      - *id016
+      - *id017
+      - *id018
+      - *id019
+      - *id020
+      - *id021
+      - *id022
+      - *id023
+      - *id024
+      - *id025
+      - *id026
+      - *id027
+      - *id028
+      - *id029
+      - *id030
+      - *id031
+      - *id032
+      - *id033
+      - *id034
+      - *id035
+      - *id036
+      armorContents:
+      - *id037
+      - *id038
+      - *id039
+      - *id040
+    '4':
+      displayName: '§fKit: NoDebuff #4'
+      mainContents:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - *id006
+      - *id007
+      - *id008
+      - *id009
+      - *id010
+      - *id011
+      - *id012
+      - *id013
+      - *id014
+      - *id015
+      - *id016
+      - *id017
+      - *id018
+      - *id019
+      - *id020
+      - *id021
+      - *id022
+      - *id023
+      - *id024
+      - *id025
+      - *id026
+      - *id027
+      - *id028
+      - *id029
+      - *id030
+      - *id031
+      - *id032
+      - *id033
+      - *id034
+      - *id035
+      - *id036
+      armorContents:
+      - *id037
+      - *id038
+      - *id039
+      - *id040
+    '5':
+      displayName: '§fKit: NoDebuff #5'
+      mainContents:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - *id006
+      - *id007
+      - *id008
+      - *id009
+      - *id010
+      - *id011
+      - *id012
+      - *id013
+      - *id014
+      - *id015
+      - *id016
+      - *id017
+      - *id018
+      - *id019
+      - *id020
+      - *id021
+      - *id022
+      - *id023
+      - *id024
+      - *id025
+      - *id026
+      - *id027
+      - *id028
+      - *id029
+      - *id030
+      - *id031
+      - *id032
+      - *id033
+      - *id034
+      - *id035
+      - *id036
+      armorContents:
+      - *id037
+      - *id038
+      - *id039
+      - *id040
+    '6':
+      displayName: '§fKit: NoDebuff #6'
+      mainContents:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - *id006
+      - *id007
+      - *id008
+      - *id009
+      - *id010
+      - *id011
+      - *id012
+      - *id013
+      - *id014
+      - *id015
+      - *id016
+      - *id017
+      - *id018
+      - *id019
+      - *id020
+      - *id021
+      - *id022
+      - *id023
+      - *id024
+      - *id025
+      - *id026
+      - *id027
+      - *id028
+      - *id029
+      - *id030
+      - *id031
+      - *id032
+      - *id033
+      - *id034
+      - *id035
+      - *id036
+      armorContents:
+      - *id037
+      - *id038
+      - *id039
+      - *id040
+    '7':
+      displayName: '§fKit: NoDebuff #7'
+      mainContents:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - *id006
+      - *id007
+      - *id008
+      - *id009
+      - *id010
+      - *id011
+      - *id012
+      - *id013
+      - *id014
+      - *id015
+      - *id016
+      - *id017
+      - *id018
+      - *id019
+      - *id020
+      - *id021
+      - *id022
+      - *id023
+      - *id024
+      - *id025
+      - *id026
+      - *id027
+      - *id028
+      - *id029
+      - *id030
+      - *id031
+      - *id032
+      - *id033
+      - *id034
+      - *id035
+      - *id036
+      armorContents:
+      - *id037
+      - *id038
+      - *id039
+      - *id040
